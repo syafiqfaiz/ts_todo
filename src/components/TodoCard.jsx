@@ -35,8 +35,6 @@ function TodoCard(props: {todo: TodoCardProps}) {
     setTodoState({...todoState, items: items})
   }
 
-
-
   const editItem = (item: ItemProps) => {
     const items = todoState.items.map((i: ItemProps) => {
       if (i.id === item.id) {

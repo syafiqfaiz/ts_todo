@@ -2,7 +2,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { TodoCardProps } from './types';
 
-import TodoCard from './components/TodoCard';
+import NewTodoCard from './components/NewTodoCard';
 
 function App() {
 
@@ -84,8 +84,8 @@ function App() {
   return (
     <div className='row'>
       <h1>Todo List</h1>
-      {todoList.map((todo: TodoCardProps) => (
-        <TodoCard todo={todo} key={todo.id}/>
+      {todoList.map((todoData) => (
+        <NewTodoCard todo={todoData} />
       ))}
     </div>  
   )
