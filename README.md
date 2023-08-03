@@ -1,7 +1,7 @@
 # To get started #
 
 Clone the repo to your computer \
-```git clone git@github.com:syafiqfaiz/ts_todo.git```
+```git clone https://github.com/syafiqfaiz/ts_todo.git```
 
 Change directory to the project folder \
 ```cd ts_node```
